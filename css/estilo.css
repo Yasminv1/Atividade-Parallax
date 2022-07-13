@@ -1,0 +1,63 @@
+html,body{
+	margin: 0px;
+	color: #777;
+	font: 16px arial, sans-serif;
+	height: 100%;
+}
+h3{
+	color: #111;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+h4{
+	color: black;
+	font-size: 17px;
+}
+.conteudo{
+	background-color: #fff;
+	text-align: justify;
+	padding: 50px 80px;
+
+}
+.rodape{
+	background-image: repeating-linear-gradient(#fff1da, #ffe3cd 10%, #f9d6bf 20%);
+	height: 20%;
+	text-align: center;
+}
+.imagem1, .imagem2, .imagem3, .imagem4{
+	position: relative;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;	
+
+}
+.imagem1{
+	background-image: url(../imagens/jesus.png);
+}
+.imagem2{
+	background-image: url(../imagens/familia.jpg);
+}
+.imagem3{
+	background-image: url(../imagens/amigos.jpg);
+}
+.imagem4{
+	background-image: url(../imagens/amor.jpg);
+}
+.titulo-imagem{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+}
+.titulo-imagem span.titulo{
+	color: #fff;
+	background-color: #111;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 5px;
+
+}
